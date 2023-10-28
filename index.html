@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cuadrante de Octubre</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        width: 100vw;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        background-color: rgb(131, 185, 167);
+      }
+
+      h2 {
+        width: 100vw;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: rgb(123, 111, 133);
+        color: beige;
+        margin-top: 5px;
+      }
+
+      table .nombres {
+        width: 100px;
+        position: fixed;
+        left: 0;
+      }
+
+      .nombres td,
+      th {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #ccc;
+      }
+
+      .dia {
+        background-color: rgb(255, 178, 127);
+       
+      }
+
+      .dia th {
+        font-weight: normal;
+      }
+      .carrusel {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        flex-direction: column;
+        position: relative;
+        bottom: 464px;
+        left: 191px;
+      }
+      .carrusel .dias th{
+        padding: 9px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>DESPIECE 2023</h1>
+    <h2>OCTUBRE</h2>
+    <table class="nombres">
+      <thead class="dia">
+        <tr>
+          <th>SEMANA</th>
+        </tr>
+        <tr>
+            <th>DIA</th>
+        </tr>
+      
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>MANUEL SANCHEZ</strong></td>
+        </tr>
+        <tr>
+          <td>JAVIER MUÑOZ</td>
+        </tr>
+        <tr>
+          <td>MIGUEL ANGEL</td>
+        </tr>
+        <tr>
+          <td>PEDRO RODRIGUEZ</td>
+        </tr>
+        <tr>
+          <td>RAUL BARON</td>
+        </tr>
+        <tr>
+          <td>JONATHAN SANCHEZ</td>
+        </tr>
+        <tr>
+          <td>DAVID COMISAÑA</td>
+        </tr>
+        <tr>
+          <td>ALBERTO BARAHONA</td>
+        </tr>
+        <tr>
+          <td>PEDRO LIZANA</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="carrusel">
+      <table>
+        <thead class="semana">
+          <th>D</th>
+          <th>L</th>
+          <th>M</th>
+          <th>X</th>
+          <th>J</th>
+          <th>V</th>
+          <th>S</th>
+        </thead>
+      </table>
+      <table>
+        <thead class="dias">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+        </thead>
+      </table>
+      <table></table>
+      <table></table>
+    </div>
+  </body>
+</html>
